@@ -16,9 +16,10 @@ keys.forEach(key => {
 });
 spaceclick.addEventListener('click', () => {
     var elem = document.createElement("span");
-    var text = document.createTextNode("  ");
+    var text = document.createTextNode(' ');
     elem.appendChild(text);
     printer.appendChild(elem)
+
 })
 backspaceclick.addEventListener('click', () => {
     if (printer.hasChildNodes) {
