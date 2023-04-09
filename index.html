@@ -1,71 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unlock the secrets of ancient Egypt with our Wepsite that translates hieroglyphs to English. Easily decode inscriptions and gain insight into the rich history and culture of the pharaohs.">
+    <meta name="description"
+        content="Unlock the secrets of ancient Egypt with our Wepsite that translates hieroglyphs to English. Easily decode inscriptions and gain insight into the rich history and culture of the pharaohs.">
     <meta name="keywords" content="Rosetta, hieroglyphs, translete, ancient egypt, pharaohs">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="icon" href="imgs/favicon.png">
-    <script src="script/app.js"></script>
+
     <title>Rosetta</title>
 </head>
+
 <body>
     <div class="container">
-        <pre class="display">
-            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempora illum magnam ducimus eius tempore, nostrum nam et ipsam saepe eveniet quas eligendi, fuga dolor repudiandae quis, modi eaque atque! -->
+        <pre id="display">
+
         </pre>
         <div class="key uppercase">
             <div class="row">
-                <span>q</span>
-                <span>w</span> 
-                <span>e</span>
-                <span>r</span>
-                <span>t</span>
-                <span>y</span>
-                <span>u</span>
-                <span>i</span>
-                <span>o</span>
-                <span>p</span>
+                <span><img src="/imgs/Q/QK.jpg" width="50px 50px" class="Q keyb" /> </span>
+                <span><img src="/imgs/W/WK.jpg" width="50px 50px" class="W keyb" /></span>
+                <span><img src="/imgs/E/EK.jpg" width="50px 50px" class="E keyb" /></span>
+                <span><img src="/imgs/R/RK.jpg" width="50px 50px" class="R keyb" /></span>
+                <span><img src="/imgs/T/TK.jpg" width="50px 50px" class="T keyb" /></span>
+                <span><img src="/imgs/Y/YK.jpg" width="50px 50px" class="Y keyb" /></span>
+                <span><img src="/imgs/U/UK.jpg" width="50px 50px" class="U keyb" /></span>
+                <span><img src="/imgs/I/IK.jpg" width="50px 50px" class="I keyb" /></span>
+                <span><img src="/imgs/O/OK.jpg" width="50px 50px" class="O keyb" /></span>
+                <span><img src="/imgs/P/PK.jpg" width="50px 50px" class="P keyb" /></span>
             </div>
 
             <div class="row">
-                <span>a</span>
-                <span>s</span>
-                <span>d</span>
-                <span>f</span>
-                <span>g</span>
-                <span>h</span>
-                <span>j</span>
-                <span>k</span>
-                <span>l</span>
-            </div> 
+                <span><img src="/imgs/A/AK.jpg" width="50px 50px" class="A keyb" /></span>
+                <span><img src="/imgs/S/SK.jpg" width="50px 50px" class="S keyb" /></span>
+                <span><img src="/imgs/D/DK.jpg" width="50px 50px" class="D keyb" /></span>
+                <span><img src="/imgs/F/FK.jpg" width="50px 50px" class="F keyb" /></span>
+                <span><img src="/imgs/G/GK.jpg" width="50px 50px" class="G keyb" /></span>
+                <span><img src="/imgs/H/HK.jpg" width="50px 50px" class="H keyb" /></span>
+                <span><img src="/imgs/J/JK.jpg" width="50px 50px" class="J keyb" /></span>
+                <span><img src="/imgs/K/KK.jpg" width="50px 50px" class="K keyb" /></span>
+                <span><img src="/imgs/L/LK.jpg" width="50px 50px" class="L keyb" /></span>
+            </div>
 
             <div class="row">
                 <span class="caps active">caps</span>
-                <span>z</span>
-                <span>x</span>
-                <span>c</span>
-                <span>v</span>
-                <span>b</span>
-                <span>n</span>
-                <span>m</span>
-                <span class="backspace">
+                <span><img src="/imgs/Z/ZK.jpg" width="50px 50px" class="Z keyb" /></span>
+                <span><img src="/imgs/X/XK.jpg" width="50px 50px" class="X keyb" /></span>
+                <span><img src="/imgs/C/CK.jpg" width="50px 50px" class="C keyb" /></span>
+                <span><img src="/imgs/V/VK.jpg" width="50px 50px" class="V keyb" /></span>
+                <span><img src="/imgs/B/BK.jpg" width="50px 50px" class="B keyb" /></span>
+                <span><img src="/imgs/N/NK.jpg" width="50px 50px" class="N keyb" /></span>
+                <span><img src="/imgs/M/MK.jpg" width="50px 50px" class="M keyb" /></span>
+                <span id="backspace">
                     <i class="fa fa-angle-left"></i>
                     <i class="fa fa-close"></i>
                 </span>
             </div>
 
             <div class="row">
-                <span class="space">
+                <span id="space">
                     space
                 </span>
             </div>
-            
+
         </div>
     </div>
+    <script src="script/app.js"></script>
 </body>
+
 </html>
