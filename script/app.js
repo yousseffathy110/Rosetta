@@ -16,7 +16,7 @@ keys.forEach(key => {
 });
 spaceclick.addEventListener('click', () => {
     var elem = document.createElement("span");
-    var text = document.createTextNode(' ');
+    var text = document.createTextNode('\u00A0\u00A0\u00A0');
     elem.appendChild(text);
     printer.appendChild(elem)
 
